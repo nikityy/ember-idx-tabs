@@ -11,7 +11,7 @@ var computed = Em.computed;
  */
 export default Em.Component.extend(WithConfigMixin, {
   setTagName: Em.on('init', function() {
-    return this.set('tagName', this.get('config.tabs.tabTag') || 'div');
+    return this.set('tagName', this.get('config.tabs.tabTag')[0] || 'div');
   }),
 
   /**

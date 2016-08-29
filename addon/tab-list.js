@@ -15,7 +15,7 @@ var on = Em.on;
 
 export default Em.Component.extend(WithConfigMixin, {
   setTagName: on('init', function() {
-    return this.set('tagName', this.get('config.tabs.tabListTag') || 'div');
+    return this.set('tagName', this.get('config.tabs.tabListTag')[0] || 'div');
   }),
   classNameBindings: ['styleClasses'],
   styleClasses: Em.computed(function() {
