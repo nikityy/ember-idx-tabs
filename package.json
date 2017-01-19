@@ -36,15 +36,14 @@
     "ember-disable-prototype-extensions": "^1.0.0",
     "ember-try": "0.0.4",
     "broccoli-merge-trees": "^0.2.1",
-    "broccoli-static-compiler": "^0.2.1",
-    "ember-idx-utils": "git+https://github.com/nikityy/ember-idx-utils.git#16f12b877722a130c1f82fbad9bc7509fdff959a"
+    "broccoli-static-compiler": "^0.2.1"
   },
   "keywords": [
     "ember-addon"
   ],
   "dependencies": {
     "ember-cli-babel": "^5.0.0",
-    "ember-idx-utils": "git+https://github.com/nikityy/ember-idx-utils.git#16f12b877722a130c1f82fbad9bc7509fdff959a"
+    "ember-idx-utils": "nikityy/ember-idx-utils#aa729948f370c3acb083b276a60332007eae799b"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
